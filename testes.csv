@@ -1,0 +1,25 @@
+automato;sentenca;esperado;descricao
+1;<vazia>;REJEITA;nao contem aa nem bb
+1;ab;REJEITA;nao contem aa nem bb
+1;aab;ACEITA;contem aa
+1;bba;ACEITA;contem bb
+1;abab;REJEITA;sem aa e sem bb
+1;abca;REJEITA;simbolo invalido c
+2;<vazia>;ACEITA;vazio satisfaz a condicao
+2;a;ACEITA;apenas um a
+2;aa;ACEITA;entre os a ha 0 b (par)
+2;aba;REJEITA;entre os a ha 1 b (impar)
+2;abba;ACEITA;entre os a ha 2 b (par)
+2;ababa;REJEITA;entre dois a existe 1 b
+3;<vazia>;REJEITA;nao contem aa nem aba
+3;aa;ACEITA;contem aa
+3;aba;ACEITA;contem aba
+3;abba;REJEITA;nao contem aa nem aba
+3;aaba;ACEITA;contem aa
+4;<vazia>;ACEITA;vazio satisfaz a condicao
+4;b;ACEITA;apenas um b
+4;bab;ACEITA;entre os b ha 1 a (impar)
+4;baab;REJEITA;entre os b ha 2 a (par)
+4;bb;REJEITA;entre os b ha 0 a (par)
+4;ababa;ACEITA;entre b e b ha 1 a
+
