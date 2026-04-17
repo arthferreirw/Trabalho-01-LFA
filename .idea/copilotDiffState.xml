@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/Transicao.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Transicao.java" />
+              <option name="originalContent" value="public class Transicao {&#10;    private String origem;&#10;    private char letra;&#10;    private String destino;&#10;&#10;    public Transicao() {&#10;    }&#10;&#10;    public Transicao(String origem, char letra, String destino) {&#10;        this.origem = origem;&#10;        this.letra = letra;&#10;        this.destino = destino;&#10;    }&#10;&#10;    public String getOrigem() {&#10;        return origem;&#10;    }&#10;&#10;    public void setOrigem(String origem) {&#10;        this.origem = origem;&#10;    }&#10;&#10;    public char getLetra() {&#10;        return letra;&#10;    }&#10;&#10;    public void setLetra(char letra) {&#10;        this.letra = letra;&#10;    }&#10;&#10;    public String getDestino() {&#10;        return destino;&#10;    }&#10;&#10;    public void setDestino(String destino) {&#10;        this.destino = destino;&#10;    }&#10;}&#10;&#10;" />
+              <option name="updatedContent" value="public class Transicao {&#10;    private String origem;&#10;    private char letra;&#10;    private String destino;&#10;&#10;    public Transicao() {}&#10;&#10;    public Transicao(String origem, char letra, String destino) {&#10;        this.origem = origem;&#10;        this.letra = letra;&#10;        this.destino = destino;&#10;    }&#10;&#10;    public String getOrigem() {&#10;        return origem;&#10;    }&#10;&#10;    public void setOrigem(String origem) {&#10;        this.origem = origem;&#10;    }&#10;&#10;    public char getLetra() {&#10;        return letra;&#10;    }&#10;&#10;    public void setLetra(char letra) {&#10;        this.letra = letra;&#10;    }&#10;&#10;    public String getDestino() {&#10;        return destino;&#10;    }&#10;&#10;    public void setDestino(String destino) {&#10;        this.destino = destino;&#10;    }&#10;}&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
